@@ -1,50 +1,114 @@
-# GenAIOps – 38 Day Learning Journey (CGI)
+# 🚀 GenAIOps — 38 Day Learning Journey
 
-This repository tracks my day-by-day progress through the **38-day GenAIOps program** imparted by **CGI**. Each day has its own folder containing notes, resources, and exercises for that day, linked in the table below along with the topics covered.
+### CGI Training | Generative AI • LLMs • AI Agents • GenAIOps
 
-## 📅 Progress Tracker
+A day-wise record of my **38-day GenAIOps learning journey at CGI**, covering concepts, hands-on exercises, resources, and key learnings.
 
-| Day | Folder | Topics Covered |
-|-----|--------|-----------------|
-| Day 1 | [Day-01](./Day-01/README.md) | Foundational LLM architectures |
-| Day 2 | [Day-02](./Day-02/README.md) | How transformers evolved, transformer architecture, reasoning, agent lifecycle |
-| Day 3 | [Day-03](./Day-03/README.md) | Upcoming |
-| Day 4 | [Day-04](./Day-04/README.md) | Upcoming |
-| Day 5 | [Day-05](./Day-05/README.md) | Upcoming |
-| Day 6 | [Day-06](./Day-06/README.md) | Upcoming |
-| Day 7 | [Day-07](./Day-07/README.md) | Upcoming |
-| Day 8 | [Day-08](./Day-08/README.md) | Upcoming |
-| Day 9 | [Day-09](./Day-09/README.md) | Upcoming |
-| Day 10 | [Day-10](./Day-10/README.md) | Upcoming |
-| Day 11 | [Day-11](./Day-11/README.md) | Upcoming |
-| Day 12 | [Day-12](./Day-12/README.md) | Upcoming |
-| Day 13 | [Day-13](./Day-13/README.md) | Upcoming |
-| Day 14 | [Day-14](./Day-14/README.md) | Upcoming |
-| Day 15 | [Day-15](./Day-15/README.md) | Upcoming |
-| Day 16 | [Day-16](./Day-16/README.md) | Upcoming |
-| Day 17 | [Day-17](./Day-17/README.md) | Upcoming |
-| Day 18 | [Day-18](./Day-18/README.md) | Upcoming |
-| Day 19 | [Day-19](./Day-19/README.md) | Upcoming |
-| Day 20 | [Day-20](./Day-20/README.md) | Upcoming |
-| Day 21 | [Day-21](./Day-21/README.md) | Upcoming |
-| Day 22 | [Day-22](./Day-22/README.md) | Upcoming |
-| Day 23 | [Day-23](./Day-23/README.md) | Upcoming |
-| Day 24 | [Day-24](./Day-24/README.md) | Upcoming |
-| Day 25 | [Day-25](./Day-25/README.md) | Upcoming |
-| Day 26 | [Day-26](./Day-26/README.md) | Upcoming |
-| Day 27 | [Day-27](./Day-27/README.md) | Upcoming |
-| Day 28 | [Day-28](./Day-28/README.md) | Upcoming |
-| Day 29 | [Day-29](./Day-29/README.md) | Upcoming |
-| Day 30 | [Day-30](./Day-30/README.md) | Upcoming |
-| Day 31 | [Day-31](./Day-31/README.md) | Upcoming |
-| Day 32 | [Day-32](./Day-32/README.md) | Upcoming |
-| Day 33 | [Day-33](./Day-33/README.md) | Upcoming |
-| Day 34 | [Day-34](./Day-34/README.md) | Upcoming |
-| Day 35 | [Day-35](./Day-35/README.md) | Upcoming |
-| Day 36 | [Day-36](./Day-36/README.md) | Upcoming |
-| Day 37 | [Day-37](./Day-37/README.md) | Upcoming |
-| Day 38 | [Day-38](./Day-38/README.md) | Upcoming |
+> **Learn → Explore → Build → Document → Reflect**
 
 ---
 
-*This README will be updated progressively as the program advances.*
+## 🗺️ Learning Journey
+
+```mermaid
+flowchart LR
+    A["🧠 LLM Foundations"] --> B["⚙️ Transformers"]
+    B --> C["💬 Prompting"]
+    C --> D["📚 RAG"]
+    D --> E["🤖 AI Agents"]
+    E --> F["🔗 Agentic AI"]
+    F --> G["⚙️ GenAIOps"]
+    G --> H["📊 Evaluation"]
+    H --> I["🚀 Production"]
+```
+
+---
+
+## 📅 38-Day Training Tracker
+
+|   Day  | Topic / Module                            |            Notes           | Status |
+| :----: | ----------------------------------------- | :------------------------: | :----: |
+| **01** | Foundational LLM Architectures            | [View](./Day-01/README.md) |   🟢   |
+| **02** | Transformers, Reasoning & Agent Lifecycle | [View](./Day-02/README.md) |   🟢   |
+| **03** | Upcoming                                  | [View](./Day-03/README.md) |    ⚪   |
+| **04** | Upcoming                                  | [View](./Day-04/README.md) |    ⚪   |
+| **05** | Upcoming                                  | [View](./Day-05/README.md) |    ⚪   |
+| **06** | Upcoming                                  | [View](./Day-06/README.md) |    ⚪   |
+| **07** | Upcoming                                  | [View](./Day-07/README.md) |    ⚪   |
+| **08** | Upcoming                                  | [View](./Day-08/README.md) |    ⚪   |
+| **09** | Upcoming                                  | [View](./Day-09/README.md) |    ⚪   |
+| **10** | Upcoming                                  | [View](./Day-10/README.md) |    ⚪   |
+| **11** | Upcoming                                  | [View](./Day-11/README.md) |    ⚪   |
+| **12** | Upcoming                                  | [View](./Day-12/README.md) |    ⚪   |
+| **13** | Upcoming                                  | [View](./Day-13/README.md) |    ⚪   |
+| **14** | Upcoming                                  | [View](./Day-14/README.md) |    ⚪   |
+| **15** | Upcoming                                  | [View](./Day-15/README.md) |    ⚪   |
+| **16** | Upcoming                                  | [View](./Day-16/README.md) |    ⚪   |
+| **17** | Upcoming                                  | [View](./Day-17/README.md) |    ⚪   |
+| **18** | Upcoming                                  | [View](./Day-18/README.md) |    ⚪   |
+| **19** | Upcoming                                  | [View](./Day-19/README.md) |    ⚪   |
+| **20** | Upcoming                                  | [View](./Day-20/README.md) |    ⚪   |
+| **21** | Upcoming                                  | [View](./Day-21/README.md) |    ⚪   |
+| **22** | Upcoming                                  | [View](./Day-22/README.md) |    ⚪   |
+| **23** | Upcoming                                  | [View](./Day-23/README.md) |    ⚪   |
+| **24** | Upcoming                                  | [View](./Day-24/README.md) |    ⚪   |
+| **25** | Upcoming                                  | [View](./Day-25/README.md) |    ⚪   |
+| **26** | Upcoming                                  | [View](./Day-26/README.md) |    ⚪   |
+| **27** | Upcoming                                  | [View](./Day-27/README.md) |    ⚪   |
+| **28** | Upcoming                                  | [View](./Day-28/README.md) |    ⚪   |
+| **29** | Upcoming                                  | [View](./Day-29/README.md) |    ⚪   |
+| **30** | Upcoming                                  | [View](./Day-30/README.md) |    ⚪   |
+| **31** | Upcoming                                  | [View](./Day-31/README.md) |    ⚪   |
+| **32** | Upcoming                                  | [View](./Day-32/README.md) |    ⚪   |
+| **33** | Upcoming                                  | [View](./Day-33/README.md) |    ⚪   |
+| **34** | Upcoming                                  | [View](./Day-34/README.md) |    ⚪   |
+| **35** | Upcoming                                  | [View](./Day-35/README.md) |    ⚪   |
+| **36** | Upcoming                                  | [View](./Day-36/README.md) |    ⚪   |
+| **37** | Upcoming                                  | [View](./Day-37/README.md) |    ⚪   |
+| **38** | Upcoming                                  | [View](./Day-38/README.md) |    ⚪   |
+
+**Legend:** 🟢 Completed   🟡 In Progress   ⚪ Upcoming
+
+---
+
+## 📂 Repository Structure
+
+Each training day contains only the essential learning artifacts:
+
+```text
+cgitraining/
+│
+├── 📄 README.md
+│
+├── 📁 Day-01/
+│   ├── 📄 README.md
+│   ├── 📓 Notebook.ipynb
+│   └── 💻 Code/
+│
+├── 📁 Day-02/
+│   ├── 📄 README.md
+│   ├── 📓 Notebook.ipynb
+│   └── 💻 Code/
+│
+├── 📁 Day-03/
+│   ├── 📄 README.md
+│   ├── 📓 Notebook.ipynb
+│   └── 💻 Code/
+│
+├── ...
+│
+└── 📁 Day-38/
+    ├── 📄 README.md
+    ├── 📓 Notebook.ipynb
+    └── 💻 Code/
+```
+
+> **README** → Concepts & key learnings
+> **Notebook** → Hands-on exploration & experiments
+> **Code** → Practical implementations
+
+---
+
+> 🚀 **38 Days • One Learning Journey • Building GenAI Skills**
+
+*This README will be updated throughout the training.*
