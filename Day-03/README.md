@@ -1,1 +1,1 @@
-Training topics and exercises for Day 02.
+Training topics and exercises for Day 03.
