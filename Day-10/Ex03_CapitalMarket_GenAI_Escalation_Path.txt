@@ -1,0 +1,91 @@
+Question: Sketch an Escalation Path
+1. Think of a GenAl use case (real or hypothetical) relevant to your organization.
+2. Sketch a simple escalation flowchart in 5 steps or fewer: who notices a problem, who they tell, and what happens next.
+3. Name a specific role or person at each step - not just "governance" or "management."
+4. Share your flowchart with a partner and ask them to try to break it: where would it actually fail?
+
+Answer:
+USE CASE
+GenAI Investment Research Assistant
+
+A GenAI agent summarizes earnings reports, analyst notes, and market news to generate stock recommendations for portfolio managers.
+
+ESCALATION FLOW (5 STEPS)
+----------------------------------------------------------------------------------------
+[1] Equity Research Analyst
+        |
+        | Notices AI recommendation conflicts with source documents
+        v
+[2] Senior Research Analyst
+        |
+        | Validates evidence and impact
+        v
+[3] Portfolio Manager
+        |
+        | Assesses trading/risk exposure
+        v
+[4] AI Product Owner
+        |
+        | Investigates model/prompt/data issue
+        v
+[5] Head of Investments
+	│
+	└── Approve fix, suspend AI output, or mandate human-only review
+
+ROLES & ACTIONS
+----------------------------------------------------------------------------------------
+Step 1: Equity Research Analyst
+- Detects discrepancy between AI recommendation and source data.
+- Raises incident and notifies Senior Research Analyst.
+
+Step 2: Senior Research Analyst
+- Validates issue severity.
+- Escalates material investment risks.
+
+Step 3: Portfolio Manager
+- Reviews potential trading impact.
+- Pauses affected recommendations if required.
+
+Step 4: AI Product Owner
+- Investigates model, prompts, and data sources.
+- Applies fix, rollback, or mitigation.
+
+Step 5: Head of Investments
+- Assesses business and regulatory impact.
+- Decides whether to continue, restrict, or suspend AI usage.
+
+HITL FLOW
+----------------------------------------------------------------------------------------
+AI Recommendation
+        	|
+        	v
+Human Research Analyst
+        	|
+   Approve?
+    /    	\
+  Yes			No
+  |        	|
+Publish  Escalate
+          	v
+     		Senior Analyst
+
+BREAK THE PROCESS REVIEW
+----------------------------------------------------------------------------------------
+1. Analyst trusts AI blindly.
+2. Portfolio Manager already acted before escalation.
+3. AI Product Owner not informed.
+4. Missing audit trail.
+5. Single point of failure in escalation path.
+
+DESIGN RECORD FIELDS
+----------------------------------------------------------------------------------------
+- Incident ID
+- Date/Time
+- AI Recommendation
+- Source Documents
+- Issue Detected By
+- Escalation Path
+- Investigation Findings
+- Human Decisions
+- Corrective Action
+- Final Resolution
