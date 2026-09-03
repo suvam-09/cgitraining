@@ -1,0 +1,63 @@
+
+Question: What's the practical difference between 'ongoing monitoring' and 'effective challenge' - aren't they both just watching for problems?
+
+Answer the above question with a real-life scenario (similar to the design-choice activity): Perceiving vs Reacting.
+
+
+Answer:
+Ongoing monitoring = Perceiving
+Effective challenge = Reacting (i.e., questioning what we perceive)
+
+Real-life scenario: Imagine a team designing an office building. They have chosen large glass windows because the design brief says the building should have lots of space for natural light.
+
+During the design process:
+Ongoing monitoring — “What we see?”
+The project team keeps checking whether the design is performing as expected.
+Now, consider they notice from energy simulations that the large glass façade is causing significant heat gain in the afternoon.
+This is monitoring: identifying a signal, trend, deviation, or emerging problem.
+
+Effective challenge — Based on the perceived scenario, “So what? Should we accept this?”
+A reviewer doesn't simply record the result. They challenge the design choice:
+“Why are we continuing with this amount of glazing if it's creating a substantial cooling penalty? Have we tested external shading or a different glazing specification? Are we prioritising the original aesthetic choice over the energy-performance requirement?”
+Now, it's an effective challenge: questioning assumptions, decisions, evidence, and proposed responses—and pushing for action when warranted.
+
+Diagrammatic understanding:
+
+             DESIGN / OPERATION
+                    │
+                    ▼
+          ┌─────────────────────┐
+          │  ONGOING MONITORING │
+          │     "PERCEIVING"    │
+          │                     │
+          │ Observe data        │
+          │ Track trends        │
+          │ Identify deviations │
+          │ Spot emerging risks │
+          └──────────┬──────────┘
+                     │
+             Something stands out
+                     │
+                     ▼
+          ┌─────────────────────┐
+          │  EFFECTIVE CHALLENGE│
+          │     "REACTING"      │
+          │                     │
+          │ Question "why?"     │
+          │ Test assumptions    │
+          │ Examine evidence    │
+          │ Challenge decisions │
+          │ Demand/drive action │
+          └──────────┬──────────┘
+                     │
+                     ▼
+              DECISION / ACTION
+                     │
+                     ▼
+          ┌─────────────────────┐
+          │     MONITOR AGAIN   │
+          │  Did the response   │
+          │     work?           │
+          └──────────┬──────────┘
+                     │
+                     └──────► 🔄
