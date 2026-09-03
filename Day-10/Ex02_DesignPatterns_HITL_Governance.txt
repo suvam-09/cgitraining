@@ -1,0 +1,131 @@
+Question: Prompt Chaining (Sequential subtasks) -> Routing (Classify, then dispatch) -> Orchestrator-Worker (Dynamic task delegation) ->  Evaluator-Optimizer (Generate, critique, refine) -> Parallelization (Fan-out / fan-in)
+
+(1): Please help me draft Evaluator-Optimizer segregation with real-life scenario
+1. HITL (replace Evaluator by HITL)
+2. Overriding and Escalation in Evaluator-Optimizer (Real-life scenario was
+planner-executor-evaluator multi-agent architecture)
+3. Log into the Design Records
+
+After answering for above questions, repeat the above activity for Chaining, Routing, orchestration-worker and Parallelization design patterns.
+
+Answer:
+1. Evaluator–Optimizer
+Pattern: Generate → Evaluate → Refine
+
+Real-life scenario:
+An AI team designs an office-building façade. The Executor proposes a large glass façade. The Evaluator identifies excessive afternoon heat gain and sends feedback. The Executor revises the design using high-performance glazing and external shading. The Evaluator checks it again until the design meets the requirements.
+
+Planner → Executor → Evaluator
+              		↑          			│
+              		└─ Refine ───┘
+                   		 ↓
+                 	Approve
+
+HITL:
+Replace the AI Evaluator with a human expert who reviews the proposed design and approves, rejects, or requests refinement.
+
+Executor → HUMAN EVALUATOR → Approve / Refine
+
+Override & Escalation:
+If the issue exceeds the Evaluator's authority, escalate it to a human. 
+Evaluator 	→ Minor issue → Refine
+          		→ Major issue → Escalate → Human decision
+
+Design Record:
+Log the proposal, evaluation findings, refinement, final decision, human intervention, and rationale.
+
+2. Prompt Chaining
+Pattern: Sequential subtasks
+
+Real-life scenario:
+Design requirements → façade design → energy analysis → compliance check → final recommendation.
+
+Requirements → Design → Energy → Compliance → Decision
+
+HITL:
+Insert a human review at a predefined step.
+
+Override & Escalation:
+A failed compliance check can stop the chain and escalate to a human.
+
+Design Record:
+Record the output and decision from each stage.
+
+Key question: “What should happen next?”
+
+3. Routing
+Pattern: Classify → Dispatch
+
+Real-life scenario:
+An incoming building issue is classified as energy, structural, or compliance, then sent to the appropriate specialist agent.
+
+              Issue
+                ↓
+              Router
+          ↙      ↓      ↘
+      Energy  Structural  Compliance
+
+HITL:
+If classification confidence is low, ask a human to classify it.
+
+Override & Escalation:
+A human can override the routing decision or escalate a high-risk issue.
+
+Design Record:
+Log the issue, classification, assigned agent, override, and resolution.
+
+Key question: “Who should handle this?”
+
+4. Orchestrator–Worker
+Pattern: Dynamic task delegation
+
+Real-life scenario:
+The Orchestrator receives the goal of creating an energy-efficient façade and dynamically delegates tasks to energy, structural, and cost workers based on what it discovers.
+
+              Goal
+               ↓
+         Orchestrator
+        ↙      ↓      ↘
+     Energy  Structural  Cost
+        ↘      ↓      ↙
+         Orchestrator
+               ↓
+            Decision
+
+HITL:
+A human intervenes when workers produce conflicting or high-risk results.
+
+Override & Escalation:
+The human can change the Orchestrator's priorities or require escalation.
+
+Design Record:
+Log delegated tasks, worker outputs, orchestration decisions, and human interventions.
+
+Key question: “What work is needed next, and who should do it?”
+
+5. Parallelization
+Pattern: Fan-out → Fan-in
+
+Real-life scenario:
+Energy, cost, and compliance agents independently assess the same façade at the same time. Their results are then combined.
+
+                  Façade
+                    ↓
+                 FAN-OUT
+             ↙      ↓      ↘
+          Energy   Cost   Compliance
+             ↘      ↓      ↙
+                 FAN-IN
+                    ↓
+              Combined result
+
+HITL:
+A human reviews the combined result when expert judgement is required.
+
+Override & Escalation:
+A critical failure, such as a compliance failure, can trigger escalation rather than automatic approval.
+
+Design Record:
+Log each parallel assessment, the combined result, conflicts, and final decision.
+
+Key question: “What can happen at the same time?”
